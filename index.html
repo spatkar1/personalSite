@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"> </script> 
+    <script src="assets/js/script.js"></script>
+    <script> document.body.className += ' fade-out'; </script>
     <div id="homeContainer">
         <div id="mainImageContainer">
             <img src="assets/img/mainImage.svg">
@@ -16,10 +19,13 @@
                 <div id="lastName" class="name"> PATKAR </div>
             </div>
             <div id="mainTabContainer">
-                <div class="tab"> ABOUT </div>
-                <div class="tab"> MY WORK</div>
-            </div>
-        
+                <div id="aboutTab" class="tab">
+                    <a href="about.html">ABOUT </a>
+                </div>
+                <div id="workTab" class="tab" class="workTab"> 
+                    <a href="work.html"> MY WORK </a>
+                </div>
+            </div>      
         </div>
     </div>
 
